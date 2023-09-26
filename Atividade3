@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Temperatura2{
+    public static void main(){
+        Scanner scanner = new Scanner(System.in);
+        int x;
+        
+        System.out.println("Informe a temperatura");
+        x = scanner.nextInt();
+        
+        
+        
+        if(x<=18){
+            System.out.println("O clima está frio.");
+        }
+        if(x>=19 && x<=23){
+            System.out.println("O clima está agradável.");
+        }
+        if(x>=24 && x<=35){
+            System.out.println("O clima está quente.");
+        }
+        if(x>35){
+            System.out.println("O clima está muito quente.");
+        }
+        
+    }
+}
